@@ -27,3 +27,7 @@ name = "pr4"
 [[bin]]
 path = "src/misc/lb1.rs"
 name = "lb1"
+
+[[bin]]
+path = "src/misc/lb2.rs"
+name = "lb2"

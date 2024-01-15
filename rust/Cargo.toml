@@ -31,3 +31,8 @@ name = "lb1"
 [[bin]]
 path = "src/misc/lb2.rs"
 name = "lb2"
+
+[[bin]]
+# button to destroy
+path = "src/misc/lb3.rs"
+name = "lb3"

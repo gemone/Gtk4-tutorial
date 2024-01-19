@@ -41,7 +41,9 @@
                     cairo
                     graphene
                     harfbuzz
-                  ];
+                  ] ++ (with pkgs;
+                    [ cargo-expand ]
+                  );
                   languages.rust.enable = true;
                   languages.c.enable = true;
                 }

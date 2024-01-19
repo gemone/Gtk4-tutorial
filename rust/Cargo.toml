@@ -36,3 +36,13 @@ name = "lb2"
 # button to destroy
 path = "src/misc/lb3.rs"
 name = "lb3"
+
+[[bin]]
+# gtkbox
+path = "src/misc/lb4.rs"
+name = "lb4"
+
+[[bin]]
+# gtkbox v2
+path = "src/misc/lb4_1.rs"
+name = "lb4_1"

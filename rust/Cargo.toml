@@ -56,3 +56,11 @@ name = "tfv1"
 [[bin]]
 path = "src/tfv/tfv2.rs"
 name = "tfv2"
+
+[[bin]]
+path = "src/tfv/tfv3.rs"
+name = "tfv3"
+
+[[bin]]
+path = "src/tfv/tfv4.rs"
+name = "tfv4"

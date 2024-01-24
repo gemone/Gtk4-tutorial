@@ -9,58 +9,63 @@ edition = "2021"
 gtk = { version = "0.7.3", package = "gtk4", features = ["v4_12"] }
 
 [[bin]]
-path = "src/misc/pr1.rs"
+path = "misc/pr1.rs"
 name = "pr1"
 
 [[bin]]
-path = "src/misc/pr2.rs"
+path = "misc/pr2.rs"
 name = "pr2"
 
 [[bin]]
-path = "src/misc/pr3.rs"
+path = "misc/pr3.rs"
 name = "pr3"
 
 [[bin]]
-path = "src/misc/pr4.rs"
+path = "misc/pr4.rs"
 name = "pr4"
 
 [[bin]]
-path = "src/misc/lb1.rs"
+path = "misc/lb1.rs"
 name = "lb1"
 
 [[bin]]
-path = "src/misc/lb2.rs"
+path = "misc/lb2.rs"
 name = "lb2"
 
 [[bin]]
 # button to destroy
-path = "src/misc/lb3.rs"
+path = "misc/lb3.rs"
 name = "lb3"
 
 [[bin]]
 # gtkbox
-path = "src/misc/lb4.rs"
+path = "misc/lb4.rs"
 name = "lb4"
 
 [[bin]]
 # gtkbox v2
-path = "src/misc/lb4_1.rs"
+path = "misc/lb4_1.rs"
 name = "lb4_1"
 
 # widget v2
 
 [[bin]]
-path = "src/tfv/tfv1.rs"
+path = "tfv/tfv1.rs"
 name = "tfv1"
 
 [[bin]]
-path = "src/tfv/tfv2.rs"
+path = "tfv/tfv2.rs"
 name = "tfv2"
 
 [[bin]]
-path = "src/tfv/tfv3.rs"
+path = "tfv/tfv3.rs"
 name = "tfv3"
 
 [[bin]]
-path = "src/tfv/tfv4.rs"
+path = "tfv/tfv4.rs"
 name = "tfv4"
+
+# A very simple editor
+[[bin]]
+path = "tfe/1/main.rs"
+name = "tfe1"

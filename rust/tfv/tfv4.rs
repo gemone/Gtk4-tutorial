@@ -31,7 +31,7 @@ fn file_open(file: Option<&File>) -> Result<(String, String), Error> {
             .unwrap_or_default()
             .to_string();
 
-        match String::from_utf8(contents) {
+        match String::from_utf8(contents.to_vec()) {
             Ok(contents) => Ok((basename, contents)),
             Err(e) => Err(Error::new(
                 FileError::Fault,

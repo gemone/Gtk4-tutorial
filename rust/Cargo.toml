@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gtk = { version = "0.7.3", package = "gtk4", features = ["v4_12"] }
+gtk = { version = "0.8.0", package = "gtk4", features = ["v4_12"] }
 
 [[bin]]
 path = "misc/pr1.rs"

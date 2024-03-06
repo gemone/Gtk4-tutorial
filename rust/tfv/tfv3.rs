@@ -58,7 +58,7 @@ fn app_open(app: &Application, files: &[File], _hint: &str) {
         .child(&scr)
         .build();
 
-    match file_open(files.get(0)) {
+    match file_open(files.to_vec().first()) {
         Ok((basename, contents)) => {
             win.set_title(Some(&basename));
 

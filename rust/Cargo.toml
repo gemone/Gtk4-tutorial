@@ -71,3 +71,6 @@ name = "tfv4"
 [[bin]]
 path = "tfe/1/main.rs"
 name = "tfe1"
+[[bin]]
+path = "tfe/2/main.rs"
+name = "tfe2"

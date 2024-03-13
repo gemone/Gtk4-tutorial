@@ -71,6 +71,14 @@ name = "tfv4"
 [[bin]]
 path = "tfe/1/main.rs"
 name = "tfe1"
+
 [[bin]]
 path = "tfe/2/main.rs"
 name = "tfe2"
+
+[[bin]]
+path = "tfe/3/main.rs"
+name = "tfe3"
+
+[build-dependencies]
+glib-build-tools = "0.19.0"

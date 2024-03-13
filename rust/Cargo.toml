@@ -80,5 +80,9 @@ name = "tfe2"
 path = "tfe/3/main.rs"
 name = "tfe3"
 
+[[bin]]
+path = "tfe/3_r/main.rs"
+name = "tfe3_r"
+
 [build-dependencies]
 glib-build-tools = "0.19.0"

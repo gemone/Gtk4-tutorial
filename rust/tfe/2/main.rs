@@ -16,7 +16,7 @@ enum CastError {
     Unknown,
 }
 
-const APP_ID: &str = "com.github.gemone.GTK4-Tutorial.tfe1";
+const APP_ID: &str = "com.github.gemone.GTK4-Tutorial.tfe2";
 
 fn main() -> glib::ExitCode {
     let app = Application::builder()

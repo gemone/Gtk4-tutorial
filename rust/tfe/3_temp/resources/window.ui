@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="MyGtkAppWindow" parent="GtkApplicationWindow">
+    <signal name="close-request" handler="on_close_reqeust" swapped="yes" />
+    <property name="title">file eidtor</property>
+    <property name="default-width">600</property>
+    <property name="default-height">400</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox">
+            <child>
+              <object class="GtkLabel">
+                <property name="width-chars">10</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label">New</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label">Open</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="hexpand">1</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label">Save</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label">Close</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="width-chars">10</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkNotebook" id="notebook">
+            <property name="hexpand">1</property>
+            <property name="vexpand">1</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
